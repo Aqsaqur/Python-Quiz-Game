@@ -1,0 +1,11 @@
+# Django/Python gitignore
+env/
+*.pyc
+__pycache__/
+*.sqlite3
+.vscode/
+*.log
+*.pot
+*.py[co]
+*.swp
+.DS_Store
