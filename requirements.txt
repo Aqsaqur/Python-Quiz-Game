@@ -1,0 +1,11 @@
+# Django (Backend)
+django==4.2.0          # Core Django
+djangorestframework==3.14.0  # For APIs
+django-cors-headers==4.3.0   # If Streamlit is separate
+
+# Streamlit (Frontend)
+streamlit==1.29.0      # UI
+requests==2.31.0       # For Streamlit to call Django APIs
+
+# Database (PostgreSQL - Optional)
+psycopg2-binary==2.9.9 # Only if using PostgreSQL
